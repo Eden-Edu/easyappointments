@@ -31,8 +31,8 @@
     "del": "^6.0.0",
     "fullcalendar": "^3.10.2",
     "jquery": "^3.5.1",
-    "jquery-ui": "^1.12.0",
-    "moment": "^2.29.1",
+    "jquery-ui": "^1.13.1",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.31",
     "tippy.js": "^6.2.7",
     "trumbowyg": "^2.21.0"
@@ -48,7 +48,7 @@
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^1.4.0",
     "gulp-uglify": "^3.0.2",
-    "jsdoc": "^3.6.6",
+    "jsdoc": "^3.6.10",
     "node-notifier": "^8.0.1",
     "plato": "^1.7.0",
     "zip-dir": "^1.0.2"
