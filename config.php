@@ -32,7 +32,8 @@ class Config {
 
     // const BASE_URL      = 'http://localhost/edeneduappointments';
     const LANGUAGE      = 'english';
-    const DEBUG_MODE    = TRUE;
+    // const DEBUG_MODE    = TRUE;
+    const DEBUG_MODE    = FALSE;
 
     // ------------------------------------------------------------------------
     // DATABASE SETTINGS
