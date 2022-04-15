@@ -254,4 +254,9 @@ class Console extends EA_Controller {
 
         $this->output->set_output(implode(PHP_EOL, $help));
     }
+
+    public function message($to = 'World')
+    {
+        echo "Hello {$to}!".PHP_EOL;
+    }
 }

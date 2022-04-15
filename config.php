@@ -31,7 +31,6 @@ class Config {
     // ------------------------------------------------------------------------
 
     // const BASE_URL      = 'http://localhost/edeneduappointments';
-    const BASE_URL      = getenv('BASE_URL');
     const LANGUAGE      = 'english';
     const DEBUG_MODE    = TRUE;
 
@@ -40,15 +39,9 @@ class Config {
     // ------------------------------------------------------------------------
 
     // const DB_HOST       = 'localhost';
-    // const DB_NAME       = 'edeneduappointments';
-    // const DB_USERNAME   = 'root';
-    // const DB_PASSWORD   = 'root';
-
-    const DB_HOST       = getenv('DB_HOST');;
-    const DB_NAME       = getenv('DB_NAME');;
-    const DB_USERNAME   = getenv('DB_USERNAME');;
-    const DB_PASSWORD   = getenv('DB_PASSWORD');;
-
+    // const DB_NAME       = '';
+    // const DB_USERNAME   = '';
+    // const DB_PASSWORD   = '';
 
     // ------------------------------------------------------------------------
     // GOOGLE CALENDAR SYNC
