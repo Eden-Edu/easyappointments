@@ -10,6 +10,15 @@
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/jquery-ui/jquery-ui.min.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/css/installation.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/css/general.css') ?>">
+    
+    <script src="<?= asset_url('assets/ext/jquery/jquery.min.js') ?>"></script>
+<script src="<?= asset_url('assets/ext/jquery-ui/jquery-ui.min.js') ?>"></script>
+<script src="<?= asset_url('assets/ext/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+<script src="<?= asset_url('assets/ext/datejs/date.min.js') ?>"></script>
+<script src="<?= asset_url('assets/js/polyfill.js') ?>"></script>
+<script src="<?= asset_url('assets/js/general_functions.js') ?>"></script>
+<script src="<?= asset_url('assets/js/installation.js') ?>"></script>
+
 </head>
 <body>
 <div id="loading" class="d-none">
@@ -142,12 +151,5 @@
     var EALang = <?= json_encode($this->lang->language) ?>;
 </script>
 
-<script src="<?= asset_url('assets/ext/jquery/jquery.min.js') ?>"></script>
-<script src="<?= asset_url('assets/ext/jquery-ui/jquery-ui.min.js') ?>"></script>
-<script src="<?= asset_url('assets/ext/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
-<script src="<?= asset_url('assets/ext/datejs/date.min.js') ?>"></script>
-<script src="<?= asset_url('assets/js/polyfill.js') ?>"></script>
-<script src="<?= asset_url('assets/js/general_functions.js') ?>"></script>
-<script src="<?= asset_url('assets/js/installation.js') ?>"></script>
 </body>
 </html>
