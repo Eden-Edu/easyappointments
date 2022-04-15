@@ -61,9 +61,6 @@
   */
 
  require_once __DIR__ . '/vendor/autoload.php';
- use Dotenv\Dotenv;
- $dotenv = Dotenv::createUnsafeImmutable(__DIR__); 
- $dotenv->load();
 
 /*
  *---------------------------------------------------------------
@@ -97,6 +94,8 @@ switch (ENVIRONMENT)
 	case 'development':
 		error_reporting(-1);
 		ini_set('display_errors', 1);
+		$dotenv = Dotenv\Dotenv::createUnsafeImmutable(__DIR__); 
+		$dotenv->load();
 	break;
 
 	case 'testing':
